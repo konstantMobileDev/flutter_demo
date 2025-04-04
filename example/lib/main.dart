@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: AMapWindowsWebView(apiKey: '30e0e9ea99ad4246a27af894f0fb6d51'),
+      home: AMapWindowsWebView(apiKey: ''),
     );
   }
 }
